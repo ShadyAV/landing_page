@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.topFirst {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 12px;
+}
+
+.topSecond {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+}
+
+.DogFace {
+    border-radius: 50%;
+    border: solid #E5E7EB;
+}
+
+.topText {
+    size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    size: 18px;
+    color: #E5E7EB;
+}
