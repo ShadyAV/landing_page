@@ -93,6 +93,27 @@
     justify-content: end;
 }
 
+.textAndPictureThird {
+    display: flex;
+    gap: 36px;
+    background-color: #3882F6;
+    justify-content: center;
+    padding: 16px;
+    width: 900px;
+    min-width: fit-content;
+    border-radius: 6px;
+    margin: 36px 0px 36px 0px;
+}
+
+.textAndPictureThird button {
+    border-color: #F9FAF8;
+}
+
+.thirdMiddle {
+    display: flex;
+    justify-content: center;
+}
+
 button {
     border-radius: 5px;
     padding: 5px;
