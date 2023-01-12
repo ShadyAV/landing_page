@@ -1,24 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 .top {
     background-color: #1F2937;
 }
 
-.topFirst {
+.headerLogoAndNav {
     display: flex;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 12px;
+    padding-left: 12vh;
+    padding-right: 8vh;
+    padding-top: 2vh;
 }
 
-.topSecond {
+.topText {
     display: flex;
-    gap: 36px;
     justify-content: center;
+    flex-direction: column;
 }
 
 .DogFace {
@@ -26,10 +29,24 @@
     border: solid #E5E7EB;
 }
 
-.topText {
+.mainText {
     size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+}
+
+.secondText {
+    size: 18px;
+    color: #E5E7EB;
+    max-width: 250px;
+}
+
+.textAndPicture {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 8vh 2vh 8vh;
 }
 
 button {
@@ -37,10 +54,18 @@ button {
     padding: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
+    width: 100px;
+    margin: 16px 16px 16px 0px;
 }
 
 a {
     text-decoration: none;
     size: 18px;
     color: #E5E7EB;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
 }
