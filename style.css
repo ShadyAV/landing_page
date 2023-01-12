@@ -114,6 +114,14 @@
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+}
+
 button {
     border-radius: 5px;
     padding: 5px;
