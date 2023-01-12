@@ -46,7 +46,32 @@
     gap: 36px;
     justify-content: center;
     align-items: center;
-    padding: 2vh 8vh 2vh 8vh;
+    padding: 2vh 8vh 8vh 8vh;
+}
+
+.firstMiddle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    flex-wrap: wrap;
+    padding: 4vh;
+}
+
+.middleText {
+    size: 36px;
+    color: #1F2937;
+}
+
+.middlePictureAndText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middlePictures {
+    border-radius: 5px;
+    border: solid #3882F6;
 }
 
 button {
