@@ -13,9 +13,7 @@
 .headerLogoAndNav {
     display: flex;
     justify-content: space-between;
-    padding-left: 12vh;
-    padding-right: 8vh;
-    padding-top: 2vh;
+    padding: 16px;
 }
 
 .topText {
@@ -72,6 +70,27 @@
 .middlePictures {
     border-radius: 5px;
     border: solid #3882F6;
+}
+
+.secondMiddle {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 8vh 2vh 8vh;
+    flex-direction: column;
+}
+
+.quoteText {
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quoteAuthor {
+    font-weight: bold;
+    min-width: 389px;
+    display: flex;
+    justify-content: end;
 }
 
 button {
